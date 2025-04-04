@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #0B0C10; /* Dark navy blue */
+  transition: 0.3s;
+  color: #C5C6C7; /* Soft grayish-white */
+}
+
+.container {
+  background: rgba(15, 23, 36, 0.85); /* Darker navy with transparency */
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #66FCF1; /* Neon Cyan */
+  text-transform: uppercase;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #1F2833; /* Deep charcoal */
+  font-size: 1rem;
+  outline: none;
+  text-align: center;
+  color: #C5C6C7;
+}
+
+.select-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.currency-box {
+  display: flex;
+  align-items: center;
+}
+
+.flag {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.select {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #1F2833;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  color: #C5C6C7;
+}
+
+.swap-button {
+  background: #66FCF1;
+  border: none;
+  color: #0B0C10;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.swap-button:hover {
+  background: #45A29E;
+  transform: rotate(180deg);
+}
+
+.button {
+  background: linear-gradient(135deg, #66FCF1, #45A29E);
+  color: #0B0C10;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.exchange-rate {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #66FCF1;
+}
+
+.result {
+  margin-top: 15px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background: rgba(102, 252, 241, 0.15);
+  padding: 10px;
+  border-radius: 8px;
+  color: #66FCF1;
+  border: 1px solid rgba(102, 252, 241, 0.3);
+}
